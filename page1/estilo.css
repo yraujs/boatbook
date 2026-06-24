@@ -14,10 +14,21 @@ header{
     padding-right: 5%;
 }
 
-nav a{
-    text-decoration: none;
-    color: #F2F2F2;
-    background-color: #156D53;
-    padding: 10px 20px;
-    
+a{
+   text-decoration: none; 
+   padding: 30px;
+   color: #F2F2F2;
+   text-align: center;
+   
 }
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    background-color: #156D53;
+}
+
+
