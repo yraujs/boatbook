@@ -97,3 +97,16 @@ main {
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+footer{
+    background-color: #156D53;
+    color: #F2F2F2;
+    text-align: center;
+    margin: 19% 0 0 0;
+    height: 80px;
+    width: 100%;
+}
+
+footer p{
+    padding: 2%;
+}

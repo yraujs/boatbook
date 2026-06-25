@@ -1,11 +1,11 @@
 body{
     background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
 }
 
 header{
     color: #156D53;
     height: 100px;
-    font-family: Arial, sans-serif;
     text-align: left;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ header{
     padding-right: 3%;
 }
 
-a{
+a:not(.emails){
    text-decoration: none; 
    padding: 30px;
    color: #F2F2F2;
@@ -32,6 +32,10 @@ nav{
     border-radius: 30px;
 }
 
+nav a:hover {
+    opacity: 0.5;
+}
+
 .banner {
 width: 95%;
 height: 400px;
@@ -47,5 +51,41 @@ margin: auto;
     object-fit: cover;
 }
 
+h1{
+    color: #156D53;
+    text-align: center;
+}
+
+h2:not(.subtitulo){
+    display: inline-block;
+    margin: 2% 10% 0 10%;
+    text-align: center;
+    color: #156D53;
+}
+
+.subtitulo{
+    color: #156D53;
+    text-align: center;
+}
+
+.emails{
+    display: inline-block;
+    margin: 1% 13% 0 14%;
+    text-align: center;
+    color: #156D53;
+}
+
+footer{
+    background-color: #156D53;
+    color: #F2F2F2;
+    text-align: center;
+    margin: 19% 0 0 0;
+    height: 80px;
+    width: 100%;
+}
+
+footer p{
+    padding: 2%;
+}
 
 
