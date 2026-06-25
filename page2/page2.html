@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RioPass - Comprar Passagens</title>
+    <link rel="stylesheet" href="page2.css">
 </head>
 <body>
-    <h1>Page2</h1>
+
+    <header>
+        <h1>RioPass</h1>
+        <nav>
+            <a href="../page1/index.html">Início</a>
+            <a href="page2.html">Passagens</a>
+            <a href="../page3/page3.html">Sobre</a>
+            <a href="../page4/page4.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="container-passagens">
+        <h2>Escolha o seu Destino</h2>
+        <p class="subtitulo">Garanta seu bilhete para as principais rotas fluviais da região.</p>
+
+        <section class="lista-cards">
+
+            <div class="card-viagem">
+                <h3>Manaus &rarr; Careiro</h3>
+                <p class="descricao">Viagem rápida de lancha a jato com saídas de hora em hora.</p>
+                <span class="preco">R$ 40,00</span>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="card-viagem destaque">
+                <span class="selo-promo">MAIS VENDIDO</span>
+                <h3>Manaus &rarr; Parintins</h3>
+                <p class="descricao">Viagem em navio motor regional com camarotes e redários confortáveis.</p>
+                <span class="preco">R$ 150,00</span>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="card-viagem">
+                <h3>Manaus &rarr; Novo Airão</h3>
+                <p class="descricao">Explore a rota dos botos com saídas regulares nos fins de semana.</p>
+                <span class="preco">R$ 90,00</span>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+        </section>
+    </main>
+
 </body>
 </html>

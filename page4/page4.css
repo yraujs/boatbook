@@ -10,8 +10,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 a{
@@ -26,9 +26,26 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 450px;
     height: 50px;
     background-color: #156D53;
+    border-radius: 30px;
 }
+
+.banner {
+width: 95%;
+height: 400px;
+overflow: hidden;
+border-radius: 20px;
+text-align: center;
+margin: auto;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 

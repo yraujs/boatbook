@@ -1,0 +1,122 @@
+body {
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: #156D53;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+    background-color: #156D53;
+    border-radius: 30px;
+}
+
+nav a {
+    text-decoration: none; 
+    padding: 10px 15px;
+    color: #F2F2F2;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+
+.container-passagens {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 3%;
+}
+
+.container-passagens h2 {
+    color: #156D53;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.lista-cards {
+    text-align: center;
+}
+
+.card-viagem {
+    display: inline-block; 
+    width: 30%;
+    margin: 0 1.5% 20px 1.5%;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: left;
+    vertical-align: top;
+    position: relative; 
+}
+
+.card-viagem h3 {
+    color: #156D53;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+}
+
+.descricao {
+    color: #555555;
+    font-size: 0.95rem;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.preco {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #156D53;
+    margin-bottom: 15px;
+}
+
+.btn-comprar {
+    display: block;
+    width: 100%;
+    background-color: #156D53;
+    color: #F2F2F2;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.btn-comprar:hover {
+    background-color: #0f4f3c;
+}
+
+.destaque .selo-promo {
+    position: absolute;
+    top: -12px;
+    right: 15px;
+    background-color: #D93838;
+    color: #ffffff;
+    padding: 5px 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

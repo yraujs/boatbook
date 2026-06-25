@@ -1,0 +1,99 @@
+body {
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #156D53;
+    height: 100px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+nav a{
+   text-decoration: none; 
+   padding: 10px 30px;
+   color: #F2F2F2;
+   text-align: center;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+    background-color: #156D53;
+    border-radius: 30px;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 5%;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+.historia h2 {
+    color: #156D53;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.historia p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.pilares {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.card-pilar {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid #156D53;
+    position: relative; 
+}
+
+.card-pilar h3 {
+    color: #156D53;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.card-pilar p {
+    line-height: 1.5;
+    color: #666666;
+}
+
+.pilar-destaque .selo-sobre {
+    position: absolute;
+    top: -12px;
+    right: 15px;
+    background-color: #156D53;
+    color: #F2F2F2;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
