@@ -55,8 +55,7 @@ img{
     height: 200px;
     object-fit: cover;
     border-radius: 80px;
-    justify-content: space-between;
-    margin: 0 100px 10px 100px;
+    margin-bottom: 15px;
 
     
 }
@@ -70,11 +69,11 @@ footer{
 }
 
 .user{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
     text-align: center;
-}
-
-.user h4{
-    margin-left: 80px;
+    margin-top: 30px;
 }
 
 .nomes{
@@ -84,4 +83,10 @@ footer{
     margin-right: 0px;
     gap: 200px;
 
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
